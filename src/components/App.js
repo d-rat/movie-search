@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./header";
 import Search from "./search";
 import Movie from "./movie";
+import Footer from "./footer";
 const defaultSearch = "https://www.omdbapi.com/?s=redemption&apikey=46a207f6";
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           ))}
         </div>
       )}
+      <Footer />
     </div>
   );
 }
